@@ -2,7 +2,7 @@ const express = require('express');
 const os = require('os');
 
 const APP_VERSION = process.env.APP_VERSION || 'v1';
-const APP_COLOR = process.env.APP_COLOR || 'blue';
+const APP_COLOR = process.env.APP_COLOR || 'pink';
 const SIMULATE_FAILURE = process.env.SIMULATE_FAILURE === 'true';
 
 function createApp() {
